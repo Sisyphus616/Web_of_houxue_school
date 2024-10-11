@@ -1,0 +1,181 @@
+/***********************************************/
+/*                  导入字体                    */
+/***********************************************/
+@font-face{
+    font-family: '宋体';
+    src: url('../font/宋体.ttc');
+}
+@font-face{
+    font-family: 'Times New Roman';
+    src: url('../font/times.ttf');
+}
+@font-face {
+    font-family: '楷体';
+    src: url('../font/楷体.ttf');
+}
+
+/***********************************************/
+/*                  滚动视差                    */
+/***********************************************/
+.container{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+}
+.container .section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	scroll-snap-aline: start;
+	background-blend-mode: multiply;
+}
+.container .section:nth-child(1){
+	background: #717171 url("../image/bg1-pe.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container .section:nth-child(2){
+	background: #717171 url("../image/bg1-pe.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container .section:nth-child(3){
+	background: #717171 url("../image/bg1-pe.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* .container .section .content{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	max-width: 700px;
+}
+.container .section .end{
+	position: absolute;
+	top: 50%;
+	left: 42%;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+} */
+
+/***********************************************/
+/*                    标题                      */
+/***********************************************/
+
+.icon{
+	text-align: center;
+}
+
+.iconpng{
+	width: 7rem;
+	height: 7rem;
+	padding-top: 30rem;
+	text-align: center;
+}
+
+.headline{
+    font-family: '宋体';
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+	margin-top: 3rem;
+}
+
+.zhushi{
+	font-size: 0.7rem;
+	font-family: 'Times New Roman';
+	text-align: center;
+	color: #fff;
+}
+
+/***********************************************/
+/*                    介绍                      */
+/***********************************************/
+.ttl{
+	font-size: 1.3rem;
+	font-family: '楷体';
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.all-verse{
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.verse{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.description{
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: '宋体';
+	color: black;
+	text-align: center;
+}
+
+.conter{
+	width: 3rem;
+	height: 15rem;
+	padding: 0;
+	/* padding-top: 3rem; */
+	text-align: center;
+}
+
+.desimg{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.verse:nth-child(1){
+	margin-top: 2rem;
+	width: 20rem;
+	height: 11rem;
+	background: #717171 url('../image/pe题目2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.verse:nth-child(2){
+	margin-top: 2rem;
+	width: 20rem;
+	height: 11rem;
+	background: #717171 url('../image/pe错题本.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.verse:nth-child(3){
+	margin-top: 2rem;
+	width: 20rem;
+	height: 11rem;
+	background: #717171 url('../image/pe成绩分析.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/***********************************************/
+/*                    联系                      */
+/***********************************************/
+.ttl2{
+	font-size: 2rem;
+	font-family: 'Times New Roman';
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding-top: 15rem;
+	padding-bottom: 2rem;
+}
