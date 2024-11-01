@@ -179,3 +179,12 @@
 	padding-top: 15rem;
 	padding-bottom: 2rem;
 }
+
+.section{
+	text-align: center;
+}
+
+.code-img{
+	width: 150px;
+	height: 150px;
+}

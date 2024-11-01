@@ -163,3 +163,12 @@
 	padding-top: 20rem;
 	padding-bottom: 2rem;
 }
+
+.section{
+	text-align: center;
+}
+
+.code-img{
+	width: 200px;
+	height: 200px;
+}
